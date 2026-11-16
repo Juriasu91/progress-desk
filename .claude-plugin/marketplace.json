@@ -1,0 +1,6 @@
+{
+  "name": "progress-desk",
+  "description": "progress-desk: a to-do progress bar above the prompt and a live subagent panel for Claude Code",
+  "owner": { "name": "Juriasu91" },
+  "plugins": [{ "name": "progress-desk", "source": "./" }]
+}

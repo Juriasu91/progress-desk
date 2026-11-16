@@ -1,0 +1,23 @@
+{
+  "name": "progress-desk",
+  "version": "0.1.0",
+  "description": "A progress bar above the prompt that follows the chat's to-do list in every chat, plus a live panel (/desk) of what each subagent is doing.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Panel language",
+      "description": "auto follows Claude Code's language setting, then the system locale; en, ru or he",
+      "default": "auto",
+      "options": ["auto", "en", "ru", "he"]
+    },
+    "autoOpen": {
+      "type": "string",
+      "title": "Open the agents panel",
+      "description": "any: once per chat when a subagent starts; never: only with /desk",
+      "default": "any",
+      "options": ["any", "never"]
+    }
+  },
+  "license": "MIT"
+}
